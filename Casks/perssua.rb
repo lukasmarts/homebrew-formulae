@@ -4,6 +4,7 @@ cask "perssua" do
 
   url "https://downloads.perssua.com/Perssua-#{version}-arm64.dmg"
   name "Perssua"
+  desc "Writing assistant for clear, persuasive text"
   homepage "https://perssua.com/en/downloads"
 
   app "Perssua.app"
