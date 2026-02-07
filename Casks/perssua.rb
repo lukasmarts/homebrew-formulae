@@ -7,5 +7,10 @@ cask "perssua" do
   desc "Writing assistant for clear, persuasive text"
   homepage "https://perssua.com/en/downloads"
 
+  livecheck do
+    url :homepage
+    regex(/v?\s*([0-9]+(?:\.[0-9]+)+)/i)
+  end
+
   app "Perssua.app"
 end
